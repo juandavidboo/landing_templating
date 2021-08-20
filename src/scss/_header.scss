@@ -1,0 +1,46 @@
+header { 
+	width: 100%;
+	
+	.navbar-default {
+		border: none;
+		background-color: #fff;
+		margin: 0;
+
+		.navbar-header {
+			height: 66px;
+			padding: 0 1.5rem;
+			width: 100%;
+
+			align-items: center;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+
+			&:before, &:after {
+				content: none;
+			}
+			.navbar-brand {
+				color: black;
+				font-family: 'Playfair Display', serif;
+				font-size: 1.2em;
+				font-weight: 400;
+				text-decoration: none;
+
+				.brand-bold {
+					font-weight: 900;
+				}
+			}
+
+			.navbar-nav{
+				a {
+					color: black;
+					font-family: 'Playfair Display', serif;
+					font-size: 0.9em;
+					margin: 0 0.6rem;
+				}
+			}
+		}
+	}
+	
+}
+

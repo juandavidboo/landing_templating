@@ -1,0 +1,99 @@
+.inline-block {
+	display: inline-block !important;
+}
+
+.h1,
+.h2,
+h1,
+h2 {
+	letter-spacing: -.01em;
+}
+
+.noBorder {
+	border: none !important;
+}
+
+body {
+	font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+	color: #000;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+	font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+	color: $color-1;
+	font-weight: 700;
+}
+
+.h1,
+h1 {
+	font-size: 30px;
+	margin: 0 0 30px;
+}
+
+.h2,
+h2 {
+	font-size: 25px;
+	margin: 0 0 35px;
+	line-height: 30px;
+}
+
+.h3,
+.p,
+h3,
+p {
+	line-height: 28px;
+}
+
+.h3,
+h3 {
+	font-size: 20px;
+	margin: 0;
+	letter-spacing: 0;
+}
+
+.p,
+p {
+	font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+	color: #000;
+	font-size: 18px;
+	margin: 0 0 35px;
+}
+
+.highlight,
+a {
+	font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	color: $color-1;
+}
+
+.align-left{
+	text-align:left;
+}
+
+ul.list-reset {
+	margin: 0;
+}
+
+.highlight {
+	font-size: 20px;
+	letter-spacing: 0;
+}
+
+.margin-0 {
+	margin: 0 !important;
+}
+
+.margin-top-0 {
+	margin-top: 0 !important;
+}
+
+strong {
+	font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+}

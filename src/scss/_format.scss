@@ -1,0 +1,72 @@
+$xs: 480px;
+$sm: 768px;
+$md: 1024px;
+
+$color-1: #000000;
+$color-2: #494949;
+$color-3: #000000;
+$color-3-darker: #000000;
+$color-4: #000000;
+$color-error: $color-4;
+
+.color-1 {
+	color: $color-1;
+}
+.color-2{
+	color: $color-2;
+}
+.color-3{
+	color: $color-3;
+}
+.color-4{
+	color: $color-4;
+}
+
+@import url('http://fonts.cdnfonts.com/css/fivo-sans');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap');
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    margin: 0;
+    font-family: 'Fivo Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    overflow-x: hidden;
+    @media (max-width: $sm){
+        font-size: 14px;
+	}
+    @media (max-width: $sm){
+        font-size: 14px;
+	}
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+    &:hover {
+        text-decoration: none;
+	}
+}

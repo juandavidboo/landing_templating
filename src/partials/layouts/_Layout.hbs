@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<!-- Medtadata -->
+    <meta name="google-site-verification" content="" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no,minimum-scale=1.0,maximum-scale=1.0" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<!-- Styles -->
+    
+    <link href="../css/custom-bootstrap.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+	
+	{{#> header-block}}
+		{{!-- Page content goes here. --}}
+	{{/header-block}}
+</head>
+<body class="">
+	
+	{{>includes/_Header}}
+
+	<div class="site-container">
+        <section class="middle-content">
+        {{#> body-block}}
+			{{!-- Page content goes here. --}}
+		{{/body-block}}
+        </section>
+    </div>	
+
+    {{>includes/_Footer}}
+    
+	{{>includes/_Scripts}}
+    {{#> scripts-block}}
+    {{/scripts-block}}
+
+</body>
+</html>

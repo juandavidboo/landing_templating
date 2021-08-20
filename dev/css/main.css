@@ -1,0 +1,214 @@
+@import url("http://fonts.cdnfonts.com/css/fivo-sans");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap");
+.color-1 {
+  color: #000000; }
+
+.color-2 {
+  color: #494949; }
+
+.color-3 {
+  color: #000000; }
+
+.color-4 {
+  color: #000000; }
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: 'Fivo Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  overflow-x: hidden; }
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px; } }
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px; } }
+
+img {
+  max-width: 100%;
+  display: block; }
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: black; }
+  a:hover {
+    text-decoration: none; }
+
+header {
+  width: 100%; }
+  header .navbar-default {
+    border: none;
+    background-color: #fff;
+    margin: 0; }
+    header .navbar-default .navbar-header {
+      height: 66px;
+      padding: 0 1.5rem;
+      width: 100%;
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      header .navbar-default .navbar-header:before, header .navbar-default .navbar-header:after {
+        content: none; }
+      header .navbar-default .navbar-header .navbar-brand {
+        color: black;
+        font-family: 'Playfair Display', serif;
+        font-size: 1.2em;
+        font-weight: 400;
+        text-decoration: none; }
+        header .navbar-default .navbar-header .navbar-brand .brand-bold {
+          font-weight: 900; }
+      header .navbar-default .navbar-header .navbar-nav a {
+        color: black;
+        font-family: 'Playfair Display', serif;
+        font-size: 0.9em;
+        margin: 0 0.6rem; }
+
+/*@media (min-width: $sm) {
+	min-height: calc(100vh - 289px);
+}*/
+#front .container {
+  width: 100%; }
+  #front .container h1 {
+    font-family: 'Fivo Sans', sans-serif;
+    font-size: 2.5em;
+    font-weight: 900;
+    line-height: 1;
+    margin: 4rem 0;
+    text-transform: uppercase;
+    text-align: center; }
+  #front .container h2 {
+    font-family: 'Fivo Sans', sans-serif;
+    font-size: 2.1em;
+    font-weight: 900;
+    line-height: 1;
+    margin: 4rem 0;
+    text-align: left; }
+  #front .container p {
+    font-family: 'Fivo Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 450;
+    line-height: 1.5;
+    margin: 4rem 0;
+    text-align: left; }
+  #front .container #hero .content-img {
+    width: 100%; }
+  #front .container #cursos {
+    padding-bottom: 4.5em; }
+    #front .container #cursos .content-img {
+      max-width: 589px; }
+  #front .container #noticias {
+    background-color: #fff1cc; }
+  #front .container #noticias {
+    background-color: #fff1cc; }
+
+footer {
+  background-color: #fff; }
+  footer .footer-links {
+    background: #ffffff;
+    padding: 20px 0;
+    text-align: center; }
+    footer .footer-links ul {
+      margin: 0 auto;
+      padding: 0 10px;
+      text-align: left;
+      width: 100%; }
+      @media (min-width: 1024px) {
+        footer .footer-links ul {
+          padding-left: 25px;
+          width: 1000px; } }
+      footer .footer-links ul li {
+        display: block;
+        padding: 0; }
+        @media (min-width: 768px) {
+          footer .footer-links ul li {
+            display: inline-block; } }
+        footer .footer-links ul li a {
+          font-family: 'Fivo Sans', Arial, Helvetica, sans-serif;
+          font-weight: 400;
+          color: #000;
+          font-size: 14px;
+          line-height: 30px;
+          padding: 0 15px; }
+        footer .footer-links ul li:last-child a {
+          border-right: none; }
+  footer .footer-logo {
+    padding: 30px 25px 25px 25px;
+    margin: 0 auto;
+    width: 100%; }
+    @media (min-width: 1024px) {
+      footer .footer-logo {
+        padding-left: 45px;
+        width: 1000px; } }
+    footer .footer-logo .list-inline {
+      display: inline-block;
+      margin-bottom: 0;
+      margin-left: 0; }
+    footer .footer-logo li {
+      padding: 0;
+      float: left;
+      /*&:first-child {
+				width: 37%;
+				margin-right: 12%;
+			}
+
+			&:last-child {
+				width: 51%;
+			}
+
+			a {
+				display: inline-block;
+				
+				img {
+					width: 100%;
+				}
+			}
+
+			@media (min-width: $xs) {*/ }
+      footer .footer-logo li:first-child {
+        margin-right: 25px; }
+      footer .footer-logo li:first-child, footer .footer-logo li:last-child {
+        width: auto; }
+      footer .footer-logo li a img.logo-astellas {
+        width: 108px; }
+      footer .footer-logo li a img.logo-pfizer {
+        width: 125px; }
+  footer .footer-cont {
+    border-top: 1px solid #c0c0c0;
+    margin: 0 auto;
+    width: 100%; }
+    footer .footer-cont .footer-cont-text {
+      padding: 20px 25px 70px 25px;
+      width: 100%; }
+      @media (min-width: 1024px) {
+        footer .footer-cont .footer-cont-text {
+          margin: 0 auto;
+          padding: 20px 45px 70px 45px;
+          width: 1000px; } }
+      footer .footer-cont .footer-cont-text p {
+        color: #000000;
+        font-size: 13px;
+        line-height: 18px;
+        margin-bottom: 0; }
+        @media (min-width: 1024px) {
+          footer .footer-cont .footer-cont-text p {
+            margin-bottom: 0px; } }
