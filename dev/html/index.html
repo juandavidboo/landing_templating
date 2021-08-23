@@ -21,21 +21,23 @@
 <body class="">
 	
 	<header>
-	<nav class="navbar navbar-default">
-		<div class="navbar-header container-fluid">
+	<nav class="navbar navbar-expand-lg navbar-light bg-white">
+		<!--div class="navbar-header container-fluid"-->
 			<a class="navbar-brand" href="https://brotherad.com/mexico/" target="_blank" ><span class="brand-bold">Brother</span> | Ciudad de México</a>
-			
-				<ul class="navbar-nav list-group-horizontal">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto text-right">
 					<li class="nav-item"><a class="nav-link" href="https://brotherad.com/mexico/" target="_blank" >Somos Brother</a></li>
 					<li class="nav-item"><a class="nav-link" href="https://brotherad.com/mexico/" target="_blank" >Cursos</a></li>
 					<li class="nav-item"><a class="nav-link" href="https://brotherad.com/mexico/" target="_blank" >Noticias</a></li>
 					<li class="nav-item"><a class="nav-link" href="https://brotherad.com/mexico/" target="_blank" >WeAreDoers</a></li>
 					<li class="nav-item"><a class="nav-link" href="https://brotherad.com/mexico/" target="_blank" >Contacto</a></li>
 				</ul>
-			
-		</div>
+			</div>
+		<!--/div-->
 	</nav>
-	
 	</header>
 	<div class="site-container">
         <section class="middle-content">
@@ -48,16 +50,16 @@
 			</div>
 		</section>
 		
-		<section id="cursos" class="row  c-wrapper">
-			<div class="col-12">
+		<section id="cursos" class="row  justify-content-center c-wrapper">
+			<div class="col-9">
 				<div class="section_h">
 					<h1 class="">Cursos</h1>
 				</div>
 			</div>	
-			<div class="col-12">
-				<div class="row justify-content-md-center">
+			<div class="col-9 col-md-8">
+				<div class="row">
 
-					<div class="col-xs-12 col-lg-8">
+					<div class="col-xs-12">
 						<div class="row content">
 
 							<div class="col-xs-12 col-md-6 order-md-2">
@@ -81,7 +83,7 @@
 		</section>
 
 		<section id="noticias" class="row justify-content-center c-wrapper">
-			<div class="col-xs-12 col-md-4">	
+			<div class="col-9 col-lg-4">	
 				
 				<div class="section_h">
 					<h1 class="">Noticias</h1>
@@ -112,7 +114,7 @@
 		</section>
 
 		<section id="contacto" class="row justify-content-center c-wrapper">
-			<div class="col-xs-12 col-md-4">
+			<div class="col-9 col-lg-4">
 				<div>
 					<div id="ig" class="ig">
 						<span class="logo-bkg">@brothermexico</span>
@@ -126,11 +128,11 @@
 					<div class="">
 						<form method="post" name="contact" id="contact-form">
 							<div class="form-row">
-								<div class="form-group col-6">
+								<div class="form-group col-xs-12 col-md-6">
 									<label  for="first-name">First Name</label>
 									<input class="form-control" type="text" id="first-name" name="first-name" required>
 								</div>
-								<div class="form-group col-6">
+								<div class="form-group col-xs-12 col-md-6">
 									<label  for="e-mail">E-mail</label>
 									<input class="form-control" type="email" id="e-mail" name="e-mail" required>
 								</div>

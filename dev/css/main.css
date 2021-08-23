@@ -56,34 +56,29 @@ a {
 
 header {
   width: 100%; }
-  header .navbar-default {
-    border: none;
-    background-color: #fff;
-    margin: 0;
-    padding: 0; }
-    header .navbar-default .navbar-header {
-      height: 66px;
-      padding: 0 1.5rem;
-      width: 100%;
-      align-items: center;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between; }
-      header .navbar-default .navbar-header:before, header .navbar-default .navbar-header:after {
-        content: none; }
-      header .navbar-default .navbar-header .navbar-brand {
-        color: black;
-        font-family: 'Playfair Display', serif;
-        font-size: 2rem;
-        font-weight: 400;
-        text-decoration: none; }
-        header .navbar-default .navbar-header .navbar-brand .brand-bold {
-          font-weight: 900; }
-      header .navbar-default .navbar-header .navbar-nav a {
-        color: black;
-        font-family: 'Playfair Display', serif;
-        font-size: 1.4rem;
-        margin: 0 1.5rem; }
+  header .navbar .navbar-brand {
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 8px 0; }
+    header .navbar .navbar-brand .brand-bold {
+      font-weight: 900; }
+  header .navbar .navbar-nav a {
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    margin: 0 1.5rem; }
+
+.navbar-header {
+  height: 66px;
+  padding: 0 1.5rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
 
 /*@media (min-width: $sm) {
 	min-height: calc(100vh - 289px);
