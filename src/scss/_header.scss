@@ -5,6 +5,7 @@ header {
 		border: none;
 		background-color: #fff;
 		margin: 0;
+		padding: 0;
 
 		.navbar-header {
 			height: 66px;
@@ -22,7 +23,7 @@ header {
 			.navbar-brand {
 				color: black;
 				font-family: 'Playfair Display', serif;
-				font-size: 1.2em;
+				font-size: 2rem;
 				font-weight: 400;
 				text-decoration: none;
 
@@ -35,8 +36,8 @@ header {
 				a {
 					color: black;
 					font-family: 'Playfair Display', serif;
-					font-size: 0.9em;
-					margin: 0 0.6rem;
+					font-size: 1.4rem;
+					margin: 0 1.5rem;
 				}
 			}
 		}

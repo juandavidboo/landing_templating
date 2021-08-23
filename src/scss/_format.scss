@@ -1,6 +1,6 @@
 $xs: 480px;
 $sm: 768px;
-$md: 1024px;
+$md: 992px;
 
 $color-1: #000000;
 $color-2: #494949;
@@ -8,6 +8,8 @@ $color-3: #000000;
 $color-3-darker: #000000;
 $color-4: #000000;
 $color-error: $color-4;
+
+$grid-gutter-width: 30px !default;
 
 .color-1 {
 	color: $color-1;
@@ -32,13 +34,14 @@ $color-error: $color-4;
 }
 
 html {
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 
 body {
     margin: 0;
     font-family: 'Fivo Sans', sans-serif;
-    font-size: 16px;
+    font-size: 62.5%;
     line-height: 1.4;
     overflow-x: hidden;
     @media (max-width: $sm){
