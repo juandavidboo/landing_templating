@@ -1,6 +1,8 @@
 $xs: 480px;
-$sm: 768px;
-$md: 992px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
 
 $color-1: #000000;
 $color-2: #494949;
@@ -44,10 +46,10 @@ body {
     font-size: 62.5%;
     line-height: 1.4;
     overflow-x: hidden;
-    @media (max-width: $sm){
+    @media (max-width: $md){
         font-size: 14px;
 	}
-    @media (max-width: $sm){
+    @media (max-width: $md){
         font-size: 14px;
 	}
 }

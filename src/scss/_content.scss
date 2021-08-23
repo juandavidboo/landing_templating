@@ -1,4 +1,4 @@
-/*@media (min-width: $sm) {
+/*@media (min-width: $) {
 	min-height: calc(100vh - 289px);
 }*/
 
@@ -76,7 +76,14 @@
 					}
 				}
 				.content-img {
-					max-width: 589px;
+					img {
+						/*max-width: 589px;*/
+					
+						@media (min-width:$md) and (max-width: $lg) {
+							max-width: 60%;
+							margin: 0 auto;
+						}
+					}
 				}
 			}
 		}

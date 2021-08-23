@@ -63,6 +63,9 @@ header {
     font-weight: 400;
     text-decoration: none;
     padding: 8px 0; }
+    @media (max-width: 768px) {
+      header .navbar .navbar-brand {
+        margin: 0 auto; } }
     header .navbar .navbar-brand .brand-bold {
       font-weight: 900; }
   header .navbar .navbar-nav a {
@@ -80,7 +83,7 @@ header {
   flex-direction: row;
   justify-content: space-between; }
 
-/*@media (min-width: $sm) {
+/*@media (min-width: $) {
 	min-height: calc(100vh - 289px);
 }*/
 #front h1 {
@@ -139,11 +142,15 @@ header {
   align-items: center; }
   #front #cursos .content .content-txt {
     padding-right: 20px; }
-    @media (max-width: 992px) {
+    @media (max-width: 768px) {
       #front #cursos .content .content-txt {
         padding-right: 0; } }
-  #front #cursos .content .content-img {
-    max-width: 589px; }
+  #front #cursos .content .content-img img {
+    /*max-width: 589px;*/ }
+    @media (min-width: 768px) and (max-width: 992px) {
+      #front #cursos .content .content-img img {
+        max-width: 60%;
+        margin: 0 auto; } }
 
 #front #noticias {
   background-color: #fff1cc; }

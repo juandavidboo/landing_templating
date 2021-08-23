@@ -11,6 +11,9 @@ header {
 			font-weight: 400;
 			text-decoration: none;
 			padding: 8px 0;
+			@media (max-width: $md) {
+				margin: 0 auto;
+			}
 
 			.brand-bold {
 				font-weight: 900;
