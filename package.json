@@ -1,5 +1,5 @@
 {
-  "name": "xta_crm_survey",
+  "name": "my_boilerplate",
   "version": "1.0.0",
   "description": "Landing pages templating",
   "main": "index.js",
@@ -7,10 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "xtandi",
-    "survey"
+    "templating"
   ],
-  "author": "WT",
+  "author": "jdboo",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.27.5",
