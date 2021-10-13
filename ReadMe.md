@@ -1,6 +1,6 @@
 # Landing Page from templates boilerplate
 
-These project compiles SASS and handlebars files into 'dev' folder.
+_Brother_ - These project compiles SASS and handlebars files into 'dev' folder.
 
 ---
 ## Install
